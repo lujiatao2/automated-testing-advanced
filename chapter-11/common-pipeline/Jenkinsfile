@@ -1,0 +1,50 @@
+pipeline {
+    agent any
+    stages {
+        stage('构建') {
+            steps {
+                bat 'echo 执行构建！'
+            }
+        }
+        stage('单元测试') {
+            steps {
+                bat 'echo 执行单元测试！'
+            }
+        }
+        stage('部署开发环境') {
+            steps {
+                bat 'echo 部署开发环境！'
+            }
+        }
+        stage('集成测试') {
+            steps {
+                bat 'echo 执行集成测试！'
+            }
+        }
+        stage('部署测试环境') {
+            steps {
+                bat 'echo 部署测试环境！'
+            }
+        }
+        stage('系统测试') {
+            steps {
+                bat 'echo 执行系统测试！'
+            }
+        }
+        stage('部署演示环境') {
+            steps {
+                bat 'echo 部署演示环境！'
+            }
+        }
+        stage('验收测试') {
+            steps {
+                bat 'echo 执行验收测试！'
+            }
+        }
+        stage('部署生产环境') {
+            steps {
+                bat 'echo 部署生产环境！'
+            }
+        }
+    }
+}

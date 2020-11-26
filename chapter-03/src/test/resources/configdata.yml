@@ -1,0 +1,2 @@
+login:
+  url: http://localhost:9002/login

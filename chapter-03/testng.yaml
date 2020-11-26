@@ -1,0 +1,6 @@
+name: Suite
+tests:
+  - name: Test
+    parameters: { username: zhangsan, password: zhangsan123456 }
+    classes:
+      - com.lujiatao.c03.testng.Login

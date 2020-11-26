@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <test name="Test">
+        <parameter name="username" value="zhangsan"/>
+        <parameter name="password" value="zhangsan123456"/>
+        <classes>
+            <class name="com.lujiatao.c03.testng.Login"/>
+        </classes>
+    </test>
+</suite>
